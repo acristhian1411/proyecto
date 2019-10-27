@@ -1,0 +1,17 @@
+# == Schema Information
+#
+# Table name: almacenes
+#
+#  id         :integer          not null, primary key
+#  alma_desc  :string
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  alma_desc: MyString
+
+two:
+  alma_desc: MyString

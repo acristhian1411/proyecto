@@ -1,0 +1,29 @@
+# == Schema Information
+#
+# Table name: empleados
+#
+#  id              :integer          not null, primary key
+#  emple_nombre    :string
+#  emple_ruc       :string
+#  emple_direccion :string
+#  emple_telefono  :string
+#  emple_email     :string
+#  created_at      :datetime         not null
+#  updated_at      :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  emple_nombre: MyString
+  emple_ruc: MyString
+  emple_direccion: MyString
+  emple_telefono: MyString
+  emple_email: MyString
+
+two:
+  emple_nombre: MyString
+  emple_ruc: MyString
+  emple_direccion: MyString
+  emple_telefono: MyString
+  emple_email: MyString

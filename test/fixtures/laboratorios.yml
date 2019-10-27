@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: laboratorios
+#
+#  id         :integer          not null, primary key
+#  lab_desc   :string
+#  lab_active :boolean
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  lab_desc: MyString
+  lab_active: false
+
+two:
+  lab_desc: MyString
+  lab_active: false

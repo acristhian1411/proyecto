@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: rubros
+#
+#  id         :integer          not null, primary key
+#  rubro_desc :string
+#  rubro_iba  :integer
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  rubro_desc: MyString
+  rubro_iba: 
+
+two:
+  rubro_desc: MyString
+  rubro_iba: 
